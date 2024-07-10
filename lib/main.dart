@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:note_it/core/utils/themes.dart';
+import 'package:note_it/features/home_view/widgets/widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const Dummy(),
+      child: const NotesView(),
     );
   }
 }
